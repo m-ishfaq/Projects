@@ -1,0 +1,34 @@
+    body {
+        border: 5px solid black;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    #searchBar {
+        box-sizing: border-box;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #list li {
+        padding: 10px 5px;
+        border: 1px solid #eee;
+    }
+
+    #list li:nth-child(odd) {
+        background: #f2f2f2;
+    }
+
+    #list li:hover {
+        background: #fffed6;
+    }
+
+    #list li.hide {
+        display: none;
+    }
