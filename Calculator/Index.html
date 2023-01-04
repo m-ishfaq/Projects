@@ -1,0 +1,51 @@
+<html>
+
+<head>
+  <title>calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="bootstrap_1.css">
+</head>
+
+<body class="bg-info" onload="gettime()">
+  <div class="container">
+    <div class="row  justify-content-center">
+      <div class="col-4">
+        <div id="main">
+          <div id="time">
+            <h2>CALCULATOR</h2>
+            <form id="date" name="clockform"><input type="text" name="clock"></form>
+          </div>
+          <div id="res">
+            <p><b>("_")</b></p>
+          </div>
+          <div id="op">
+            <button id="add" onclick="">+</button>
+            <button id="sub" onclick="">-</button>
+            <button id="mult" onclick="">*</button>
+            <button id="div" onclick="">/</button>
+          </div>
+          <div id="num">
+            <button id="one" onclick="oneFunction()">1</button>
+            <button id="two" onclick="">2</button>
+            <button id="three" onclick="">3</button>
+            <button id="del" onclick="">DEL</button>
+            <button id="four" onclick="">4</button>
+            <button id="five" onclick="">5</button>
+            <button id="six" onclick="">6</button>
+            <button id="seven" onclick="">7</button>
+            <button id="eight" onclick="">8</button>
+            <button id="nine" onclick="">9</button>
+            <button id="clr" onclick="">CLR</button>
+            <button id="zero" onclick="">0</button>
+            <button id="dot" onclick="">.</button>
+            <button id="equal" onclick="">=</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
