@@ -1,0 +1,105 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        background: #084b78;
+    }
+
+    html,
+    body,
+    .container {
+        height: 100%;
+        margin: 0;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+        /*  position: absolute;
+        top: 50%;
+        left: 50%; */
+    }
+
+    .text-container {
+        background-color: rgb(255, 255, 255);
+        padding: 40px 50px;
+        width: fit-content;
+        text-align: center;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 10px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .text {
+        color: #ffffff;
+        display: block;
+        background-color: green;
+        margin-top: -75px;
+        margin-bottom: 30px;
+        margin-left: -10px;
+        margin-right: -10px;
+        font-size: 25px;
+        padding: 3px;
+    }
+
+    .playback_controls {
+        box-shadow: 0 0 20px rgba(0, 139, 253, 0.25);
+        padding: 40px;
+    }
+
+    button {
+        background: #000000;
+        color: #ffffff;
+        background: linear-gradient(0deg, #000000, #262626);
+        font-size: 16px;
+        border: none;
+        outline: none;
+        padding: 5px 12px;
+        border-radius: 5px;
+    }
+
+    button:nth-child(1) {
+        background: rgb(2, 57, 130);
+    }
+
+    button:nth-child(2) {
+        background: rgb(172, 4, 4);
+    }
+
+    button:nth-child(3) {
+        background: rgb(24, 157, 6);
+    }
+
+    button:nth-child(4) {
+        background: rgb(2, 57, 130);
+    }
+
+    input[type="range"] {
+        border: 1px solid #000000;
+        height: 20px;
+        max-width: 200px;
+        width: 100%;
+        vertical-align: middle;
+        border-radius: 20px;
+        background-color: #232323;
+        outline: none;
+    }
+
+    input::-webkit-slider-thumb {
+        -webkit-appearence: none;
+        width: 32px;
+        height: 20px;
+        border: 4px solid #035179;
+        background: #ffffff;
+    }
+
+    .volume_controls button {
+        background: rgb(167, 62, 1);
+    }
